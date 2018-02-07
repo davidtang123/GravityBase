@@ -14,8 +14,8 @@ public class LineDirection : MonoBehaviour {
         float changeX = Input.gyro.attitude.x;
         float changeY = Input.gyro.attitude.y;
   
-
         transform.Rotate(0, 0, changeX);
+
     }
 
 
